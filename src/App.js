@@ -13,6 +13,7 @@ import AddProducts from './components/AddProducts/AddProducts';
 import Login from './components/Login/Login/Login';
 import Register from './components/Login/Register/Register';
 import About from './components/About/About';
+import Found from './components/NotFound/Found';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="*">
+            <Found></Found>
           </Route>
         </Switch>
       </Router>

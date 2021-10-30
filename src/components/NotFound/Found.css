@@ -1,0 +1,12 @@
+.notFound{
+    background-color: rgb(230, 233, 236);
+    text-align: center;
+    align-items: center;
+    
+    padding: 20px;
+}
+.error{
+    font-size: 100px;
+    color: red;
+    font-weight: bold;
+}
