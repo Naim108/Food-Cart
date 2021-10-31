@@ -27,6 +27,7 @@ const Products = () => {
                <img className="card-img" src={product.img} alt="" />
            <h4 className="fw-bold mt-3">{product.name}</h4>
            <p>{product.description.slice(0,50)}</p>
+           <h5 className="fw-bold">Delivery Time: 30 Min</h5>
            <h5 className="fw-bold">Delivery Charge <span className="fw-bold delivery">$5</span></h5>
           
            </div>
