@@ -7,7 +7,7 @@ import icon3 from '../../../images/salad.png'
 const WorkSystem = () => {
     return (
         <div className="container">
-            <h1 className="text-primary fw-bold mt-5">How it works</h1>
+            <h1 className="header-color fw-bold mt-5">How it works</h1>
             <div className="row item">
                 <div className="col-md-4">
                     <img src={icon1} alt="" />

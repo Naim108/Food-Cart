@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button, Container, Dropdown, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
 import './Header.css'
 
@@ -26,7 +25,7 @@ const Header = () => {
            
            <Dropdown.Item><Link className="nav-bar" to="/addProduct">Add Product</Link></Dropdown.Item>
            <Dropdown.Item><Link className="nav-bar" to="/myOrders">My Orders</Link></Dropdown.Item>
-           <Dropdown.Item><Link className="nav-bar" to="/ManageAllOrders">Manage All Order</Link></Dropdown.Item>
+           <Dropdown.Item><Link className="nav-bar" to="/manageOrder">Manage All Order</Link></Dropdown.Item>
          </Dropdown.Menu>
        </Dropdown>
        : ''

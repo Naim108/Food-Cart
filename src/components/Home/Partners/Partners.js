@@ -11,7 +11,7 @@ import image6 from '../../../images/image6.png'
 const Blogs = () => {
     return (
         <div className="container">
-            <h1 className=" fw-bold mt-5">Our Trusted Partners</h1>
+            <h1 className="header-color fw-bold mt-5">Our Trusted Partners</h1>
             <div className="row m-5 image-size">
                 <div className="col-md-2">
                 <img src={image1} alt="" />

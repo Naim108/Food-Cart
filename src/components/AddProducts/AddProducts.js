@@ -5,7 +5,7 @@ const AddProducts = () => {
   const {
     register,
     handleSubmit,
-    watch,
+    reset,
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
@@ -16,7 +16,12 @@ const AddProducts = () => {
       body:JSON.stringify(data)
     })
     .then(res=>res.json())
-    .then(data=>console.log(data))
+    .then(data=>{
+      alert('Product added Successfully')
+      
+    })
+    reset()
+    
     
   };
   return (

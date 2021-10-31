@@ -14,3 +14,12 @@
     width: 25%;
     align-items: center;
 }
+.delivery{
+    color: #fa6400;
+    font-size: 20px;
+}
+.header-color{
+    color: #fa6400;
+    font-weight: bold;
+    font-size: 50px;
+}

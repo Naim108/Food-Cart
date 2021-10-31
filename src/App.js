@@ -14,6 +14,9 @@ import Login from './components/Login/Login/Login';
 import Register from './components/Login/Register/Register';
 import About from './components/About/About';
 import Found from './components/NotFound/Found';
+import Details from './components/Details/Details';
+import MyOrders from './components/MyOrders/MyOrders';
+import ManageOrder from './components/ManageOrder/ManageOrder';
 
 function App() {
   return (
@@ -39,6 +42,15 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="/products/:productId">
+            <Details></Details>
+          </Route>
+          <Route path="/myOrders">
+            <MyOrders></MyOrders>
+          </Route>
+          <Route path="/manageOrder">
+           <ManageOrder></ManageOrder>
           </Route>
           <Route path="*">
             <Found></Found>
